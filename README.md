@@ -24,3 +24,8 @@ Edit status.py (Line 7), change the key to something else apart from "test" and 
 * If the maching is running, the output will be just: running
 * If the machine is offline, the output will be just: shut
 * If the machine is missing, the output will be just: missing
+
+## Optional
+
+You could remove the line, if you don't want any debug output.
+> app.debug = True
