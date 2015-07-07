@@ -14,7 +14,7 @@ Edit status.py (Line 7) and change the key to something else apart from test
 > root@nc2-kvm:~# python status.py
 > * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  
- Goto http://your.ip.address:5000/status/<KVMID>/<KEY>
+ Goto http://your.ip.address:5000/status/KVMID/KEY
  
  * KVMID = kvm(id), so if your KVM's name is kvm180, the KVMID becomes just "180"
  * KEY = the key you set at the configuration step above
