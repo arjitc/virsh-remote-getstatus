@@ -6,7 +6,7 @@ Grab status of a virsh machine via URL
 * Python
 
 ## Configuration
-Edit status.py (Line 7) and change the key to something else apart from test
+Edit status.py (Line 7), change the key to something else apart from "test" and replace "YOUR_IP_HERE" with your IP address
 
 ## Running
 > python status.py
