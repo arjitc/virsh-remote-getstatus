@@ -9,7 +9,7 @@ def status(vmid, key):
      p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
      (output, err) = p.communicate()
      if output == "":
-      output = "offline"
+      output = "missing"
      return output
 
 
