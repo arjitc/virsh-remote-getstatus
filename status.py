@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route('/status/<vmid>/<key>')
 def status(vmid, key):
     if key == "test":
+     vmid = float(vmid)
      cmd = "/usr/bin/virsh list --all | grep kvm%s | awk {'print $3'}" % vmid
      p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
      (output, err) = p.communicate()
